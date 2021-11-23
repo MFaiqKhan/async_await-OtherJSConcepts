@@ -1,11 +1,10 @@
 import axios from "axios";
-import { EROFS } from "constants";
 
 //receiving data from 2 asynchronoys sources:
 
 //fixer.io (api key, data needed to calculate the exchange rates)
 //https://fixer.io/
-const fixerAPIKEY = "5af8eb4d9d0a4182b941961302953010";
+const fixerAPIKEY = "<your api key>";
 
 const fixerAPI = `http://data.fixer.io/api/latest?access_key=${fixerAPIKEY}`;
 
